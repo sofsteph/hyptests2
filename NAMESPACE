@@ -1,0 +1,5 @@
+# Export the functions
+export(t_test_2.0)
+export(chi_square.2.0)
+export(anova.2.0)
+
