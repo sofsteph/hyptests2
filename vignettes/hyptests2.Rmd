@@ -118,9 +118,9 @@ The `anova.2.0` function outputs:
 
 # Using the Shiny Gadget
 
-The `hypGadget()` function provides the user with an interactive interface for performing these tests:
+The `hypGadget()` function provides the user with an interactive interface for performing these tests, and can be launched with the following:
 
-```{r}
+```{r, eval=FALSE}
 # Launch the gadget
 hypGadget()
 ```
