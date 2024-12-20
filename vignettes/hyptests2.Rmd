@@ -32,7 +32,7 @@ This vignette will walk through the core functionality of `hyptests2` and demons
 
 The `hyptests2` package can be directly installed from GitHub using the `devtools` package:
 
-```{r}
+```{r, results='hide'}
 # Install devtools if not already installed
 install.packages("devtools")
 
