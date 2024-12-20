@@ -52,7 +52,7 @@ The `hyptests2` package includes three main functions: `t_test_2.0`, `chi_square
 ### Dataset
 We'll create a simple dataset to perform a T-Test:
 
-```{r}
+```{r, warning=FALSE}
 # Simulated dataset
 set.seed(123)
 group1 <- rnorm(30, mean = 5, sd = 1)
@@ -79,7 +79,7 @@ The `t_test_2.0` function outputs:
 ### Dataset
 Suppose we have the following contingency table:
 
-```{r}
+```{r, warning=FALSE}
 observed <- matrix(c(30, 10, 20, 40), nrow = 2, byrow = TRUE,
                    dimnames = list(c("Group 1", "Group 2"),
                                    c("Outcome A", "Outcome B")))
@@ -102,7 +102,7 @@ The `chi_square.2.0` function outputs:
 ### Dataset
 For ANOVA, let's consider the `iris` dataset:
 
-```{r}
+```{r, warning=FALSE}
 # Perform ANOVA
 result <- anova.2.0(data = iris, formula = Sepal.Length ~ Species)
 ```
